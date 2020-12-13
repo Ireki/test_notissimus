@@ -18,7 +18,7 @@ namespace test_notissimus.UI.Main {
 
 
         public string SerializeOffer(int position) {
-            return JsonConvert.SerializeObject(Offers[position]);
+            return JsonConvert.SerializeObject(Offers[position], Formatting.Indented);
         }
 
 
